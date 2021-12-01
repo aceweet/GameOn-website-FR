@@ -20,4 +20,7 @@ function launchModal() {
   modalbg.style.display = "block";
 }
 
-
+// fermer formulaire via croix
+document.getElementById("closeform").addEventListener("click", function(closeModal) {
+	modalBg.style.display = "none";
+});
