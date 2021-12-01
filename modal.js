@@ -24,15 +24,3 @@ function launchModal() {
 document.getElementById("closeform").addEventListener("click", function(closeModal) {
 	modalBg.style.display = "none";
 });
-
-// fermer thanks via "fermer"
-document.querySelector(".button-thank").addEventListener("click", function(closeThank) {
-	thankBg.style.display = "none";
-	modalBg.style.display = "none";
-});
-
-// fermer thanks via croix
-document.getElementById("closethanks").addEventListener("click", function(closeThank) {
-	thankBg.style.display = "none";
-	modalBg.style.display = "none";
-});
